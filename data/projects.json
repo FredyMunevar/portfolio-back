@@ -1,0 +1,73 @@
+{
+  "projects": {
+    "branch": {
+      "designLogos": ["xd", "illustrator", "photoshop", "affinity", "marvel"],
+      "devLogos": ["typescript", "html", "react", "wordpress", "vue", "sass"]
+    },
+    "hola": {
+      "designLogos": ["figma", "illustrator", "photoshop"],
+      "devLogos": ["typescript", "react", "git", "webpack", "eslint", "prettier"]
+    },
+    "million": {
+      "designLogos": ["figma", "illustrator", "photoshop"],
+      "devLogos": ["typescript", "react", "git", "webpack", "eslint", "prettier", "css", "html", "sass", "next"],
+      "slides": {
+        "group1": [
+          {
+            "id": 1,
+            "src": "million/million-website",
+            "logo": "million/million-white.svg",
+            "link": "https://www.millionluxury.com/?ui-culture=en"
+          },
+          {
+            "id": 2,
+            "src": "million/million-rivage",
+            "logo": "million/rivage.svg",
+            "link": "https://www.rivageinbalharbour.com/"
+          }
+        ]
+      }
+    },
+    "monteFrio": {
+      "designLogos": ["illustrator", "photoshop"],
+      "slides": {
+        "group1": [
+          {
+            "id": 1,
+            "src": "monte-frio/monte-frio-sketch-1"
+          },
+          {
+            "id": 2,
+            "src": "monte-frio/monte-frio-sketch-2"
+          },
+          {
+            "id": 3,
+            "src": "monte-frio/monte-frio-sketch-3"
+          }
+        ],
+        "group2": [
+          {
+            "id": 1,
+            "src": "monte-frio/monte-frio-maria-1"
+          },
+          {
+            "id": 2,
+            "src": "monte-frio/monte-frio-maria-2"
+          },
+          {
+            "id": 3,
+            "src": "monte-frio/monte-frio-maria-3"
+          }
+        ]
+      }
+    },
+    "precision": {
+      "designLogos": ["illustrator", "xd", "photoshop"],
+      "devLogos": ["css", "html", "wordpress"]
+    },
+    "weelo": {
+      "designLogos": ["xd", "illustrator", "photoshop"],
+      "devLogos": ["typescript", "react", "git", "webpack", "eslint", "prettier"]
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "toolbox": "Toolbox",
+    "contact": "Contact",
+    "download": "Download resume",
+    "rights": "All rights reserved."
+  },
+  "home": {
+    "title": "I Create User Experiences",
+    "description": "I'm a UX Developer and Designer with 17+ years of experience, driving projects from planning to development, with expertise in branding, illustration, and seamless digital experiences.",
+    "subtitle": "Featured projects",
+    "downloadButton": "Download resume",
+    "projectsButton": "Projects"
+  },
+  "about": {
+    "title": "Hi, I'm Fredy Munevar.",
+    "description": "<part>I am a Designer and UX Developer with 17+ years of experience designing and developing intuitive digital interfaces. Starting in graphic design, I expanded into front-end development, working with tools like <strong>React, React Native, Next.js, typescript and SASS.</strong></part><part>Over a decade at Netbangers, I transitioned from Web Designer to Project Manager, leading the whole team from design to development. <strong>My diverse skill set enables me to deliver user-centered experiences across web and mobile platforms.</strong> I'm certified in Agile methodologies and passionate about creating efficient, user-friendly solutions while staying updated on the latest technologies.</part>",
+    "closure": "Through these experiences, I've developed a well-rounded skill set that spans UI/UX design, front-end development, and project management. My passion lies in creating user-centered digital solutions that not only look great but work effortlessly for end users.",
+    "experiences": {
+      "million": {
+        "title": "Million Luxury",
+        "role": "Senior UX/UI Designer",
+        "date": "Present",
+        "description": "Currently working on mobile and web applications for real estate, focusing on tenant screening and CRM development."
+      },
+      "branch": {
+        "title": "Branch App",
+        "role": "Co-Founder, UX/UI Designer, Front-End Developer",
+        "date": "2021",
+        "description": "Co-founded and developed a web and mobile app to streamline vehicle maintenance communication for repair shops."
+      },
+      "netbangers": {
+        "title": "Netbangers",
+        "role": "Web Designer, Front-End Developer, Project Manager",
+        "date": "2021",
+        "description": "Led UI design and front-end development for digital campaigns and e-commerce sites for global brands."
+      },
+      "zeta": {
+        "title": "Zeta IGC",
+        "role": "Graphic Designer",
+        "date": "2010",
+        "description": "Designed advertising materials for national brands and started learning web development on my own."
+      },
+      "navarra": {
+        "title": "Navarra Impresores",
+        "role": "Graphic Design Intern",
+        "date": "2006",
+        "description": "Designed printed materials for small businesses in Bogotá, participating in the offset printing process."
+      }
+    }
+  },
+  "toolbox": {
+    "title": "My toolbox 😎",
+    "description": "<part>Over the years, I've built a versatile set of skills that allow me to craft user experiences from concept to code. Here's a look at the tools, technologies, and methods I use to turn ideas into digital products that make a difference.</part><part>Let's dive into the different areas I specialize in:</part>",
+    "tools": {
+      "design": {
+        "title": "UI/UX Design 🎨",
+        "toolDescription": "<subtitle>🧠 Wireframing:</subtitle><content>Turning ideas into structured layouts that serve as the backbone for user interfaces.</content><subtitle>🧑🏾‍💻 Prototyping:</subtitle><content>Creating interactive prototypes that allow users and stakeholders to experience the design before it's fully developed.</content><subtitle>🖌️ Visual Design:</subtitle><content>Ensuring every pixel serves a purpose, creating visually appealing and cohesive designs using tools like Figma, Sketch, and Adobe XD.</content>"
+      },
+      "front": {
+        "title": "Front-End 💻",
+        "toolDescription": "<subtitle>⚛️ React, Next.js, and TypeScript:</subtitle><content>Bringing designs to life with responsive, high-performance code. I specialize in using React and NextJS to create scalable web applications.</content><subtitle>🖥️️ HTML5 & CSS3 (SASS):</subtitle><content>Crafting responsive layouts that ensure a seamless experience across different screen sizes and devices.</content>"
+      },
+      "mobile": {
+        "title": "Mobile Dev 📱",
+        "toolDescription": "<subtitle>⚛️ React Native:</subtitle><content>Building cross-platform mobile applications that provide a consistent user experience on both iOS and Android.</content><subtitle>📲 Responsive Design:</subtitle><content>Ensuring designs work beautifully on both mobile and desktop, adapting seamlessly to different devices.</content>"
+      },
+      "collaboration": {
+        "title": "Collaboration 🤝",
+        "toolDescription": "<subtitle>📎 Version Control:</subtitle><content>Working collaboratively using Git, ensuring smooth project coordination and code versioning.</content><subtitle>💪🏽 Agile Methodologies:</subtitle><content>Scrum Master certified, I'm comfortable leading teams and delivering projects iteratively while maintaining quality and user focus.</content>"
+      }
+    },
+    "closure": "These skills allow me to approach projects from multiple angles, ensuring that the design and development work hand in hand to create intuitive, efficient user experiences. If you're interested in learning more about any of these areas, feel free to reach out, <part>I'd love to chat!</part>"
+  },
+  "contact": {
+    "title": "Let's create something amazing together. 🤝🏽",
+    "description": "Feel free to reach out if you're interested in working together, have any questions about my work, or just want to say hello.",
+    "media": {
+      "phone": {
+        "icon": "icon-phone",
+        "content": "(+57) 304 292 3745"
+      },
+      "email": {
+        "icon": "icon-email",
+        "content": "fredy.munevar@me.com"
+      },
+      "linkedin": {
+        "icon": "icon-linkedin",
+        "content": "linkedin.com/in/fredy-munevar"
+      },
+      "github": {
+        "icon": "icon-github",
+        "content": "github.com/FredyMunevar"
+      },
+      "instagram": {
+        "icon": "icon-instagram",
+        "content": "instagram.com/fredy_munevar"
+      }
+    }
+  },
+  "projects": {
+    "title": "Welcome to my portfolio! 🎨",
+    "description": "<part>Explore my projects, each focused on creating intuitive and seamless user experiences.</part><part>From mobile apps to communication platforms, I blend creativity with functionality to make every interaction smoother and more enjoyable.</part><part>Feel free to dive into the details of each case study.</part>",
+    "button": "More on Behance"
+  },
+  "branch": {
+    "roleTitle": "Role",
+    "roleContent": "UX Designer, UI Designer, Branding, Front-End Developer, Project Lead, and Co-founder",
+    "typeTitle": "Type",
+    "typeContent": "Mobile app, Desktop CRM, and Website",
+    "title": "Revolutionizing vehicle maintenance.",
+    "intro": "<part><strong>Branch App</strong> was created to revolutionize vehicle documentation and workshop management with a digital solution.</part><part><strong>Branch</strong> offers a mobile app for vehicle owners and a CRM for workshops, making it easy to organize documents, schedule maintenance, and manage repair processes.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part>Listening to common challenges among motorcycle users, we identified the need for a centralized digital platform to solve two primary issues:</part>",
+    "purposeList": "<li>Managing vehicle documents was tedious and inefficient.</li><li>Communication between workshops and owners lacked structure, making it hard to manage and track maintenance processes.</li>",
+    "challengeTitle": "Challenge",
+    "challengeContent": "Our biggest hurdle was convincing potential users who relied on traditional methods to embrace a digital tool. Workshops were accustomed to spreadsheets or printed forms and were initially resistant to adopting a new technology-driven solution.",
+    "researchTitle": "Research",
+    "researchContent": "<part>Conducted extensive user research, which led to documents like the Problem Statement, User Persona, User Journey Map, and User Flow. These were foundational in aligning our team with the real issues users faced.</part><part>Created a brand identity for Branch, from logo design to defining a cohesive visual style that spoke to both individual vehicle owners and workshop managers.</part>",
+    "designTitle": "Design and Prototyping",
+    "designContent": "<part>Due to the absence of a reference app for this type of service, prototyping was crucial to showcase our solution's purpose and usability.</part><part>Early mockups were made using <strong>Affinity Designer,</strong> then brought to life with <strong>Marvel</strong> for interactivity, allowing us to gather feedback through various iterations.</part><part>Final UI Designs were developed in <strong>Adobe XD,</strong> incorporating insights from user testing to ensure an intuitive, accessible interface for both mobile and desktop users.</part>",
+    "devTitle": "Development",
+    "devContent": "<part>I led the front-end development for both the mobile app and CRM, using <strong>React Native</strong> for the mobile app and <strong>Vue</strong> for the CRM.</part><part>Employed <strong>SASS and TypeScript</strong> for clean, maintainable code, and used <strong>Git</strong> for version control.</part><part>Managed development workflows with <strong>scrum boards in Jira and Clickup</strong> to keep tasks organized and our team focused on delivering an MVP.</part>",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "<part>Branch App's MVP was successfully delivered, providing motorcycle owners and workshop managers with a centralized, easy-to-use tool for vehicle documentation and maintenance management.</part><part>Feedback from early users was overwhelmingly positive — they noted that Branch simplified data access, reduced their dependency on paper documentation, and streamlined their communication and record-keeping processes.</part>"
+  },
+  "weelo": {
+    "roleTitle": "Role",
+    "roleContent": "UX Developer",
+    "typeTitle": "Type",
+    "typeContent": "Mobile app",
+    "title": "Simplifying property rentals through intuitive design",
+    "intro": "<part><strong>Weelo</strong> is an innovative mobile application designed to streamline the property rental process for U.S. property owners, from legal background checks to contract signing and monthly payments.</part><part>By unifying these processes into a single platform, <strong>Weelo</strong> simplifies the rental experience for property owners, saving them time and ensuring legal compliance.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part><strong>Weelo</strong> was developed to address the specific needs of U.S. property owners who required an efficient, legally compliant method to rent out properties. It enables users to:</part>",
+    "purposeList": "<li>Conduct comprehensive legal analyses on potential tenants.</li><li>Handle lease agreements digitally, with support for contract duration and terms.</li><li>Manage monthly rent payments through a unified platform.</li>",
+    "targetTitle": "Target audience",
+    "targetContent": "Property owners in the U.S. seeking a seamless, efficient way to verify potential tenants, manage legal contracts, and handle monthly rental payments.",
+    "designTitle": "Design and Prototyping",
+    "designContent": "<li>As the UX Developer, I played a bridging role between design and development. My contributions focused on solving complex interaction challenges and refining information architecture to ensure smooth navigation.</li><li>I collaborated closely with the design team to guide critical decisions, ensuring that the user experience was optimized for ease and clarity.</li>",
+    "devTitle": "Development",
+    "devContent": "<li>During development, I was responsible for translating design into code, ensuring that the information architecture and user flows designed in the planning stages were executed seamlessly in the app.</li><li>My primary tools were React Native and TypeScript, which enabled cross-platform functionality and robust typing for scalable, maintainable code.</li><li>Within the company, we used a highly structured workflow, incorporating Git Flow for version control, Husky for pre-commit hooks, and Unit Testing to maintain clean, high-quality code. This allowed us to create a collaborative environment with efficient processes for daily tasks, organized under the scrum methodology.</li>",
+    "challengeTitle": "Challenges and solutions",
+    "challengeContent": "<li>Adopting New Tools and Best Practices: Learning tools like Git Flow and package managers like Yarn and Brew required me to adapt and expand my skill set. Although challenging, these tools significantly streamlined our workflow and ensured a more maintainable codebase.</li><li>Pixel-Perfect Design Execution: The company's high standards for design and code quality required a pixel-perfect approach. Meeting these expectations involved precise attention to detail and close collaboration with the design team to ensure that every visual element was accurately translated into the app.</li>",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "<part><strong>Weelo</strong> successfully launched to positive feedback from users, who praised the app's ease of use, fluidity, and warm design.</part><part>The app introduced an innovative approach to property rental management in the U.S., a market where such tools are still emerging.</part><part>It quickly became known for its intuitive interface and the streamlined experience it provided for property owners.</part>"
+  },
+  "million": {
+    "roleTitle": "Role",
+    "roleContent": "UX Developer",
+    "typeTitle": "Type",
+    "typeContent": "Mobile app, CRM and Websites",
+    "title": "Empowering real estate agents with data-driven tools",
+    "intro": "<part><strong>Million And Up</strong> is a real estate company in Miami that empowers its agents to sell luxury properties with data-driven tools. The app, CRM, and websites developed for Million And Up enable agents to profile potential clients in real-time, giving them a competitive edge by prioritizing high-potential leads.</part><part>This platform has become essential for agents to focus their efforts effectively and close more deals.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part>The primary objective was to support real estate agents in identifying and profiling potential clients for luxury properties. By streamlining access to client data, the Million And Up platform provides:</part>",
+    "purposeList": "<li>Real-time delivery of client profiles to agents, helping them connect with interested buyers.</li><li>Tools to reduce engagement with unsuitable prospects, focusing resources on qualified leads.</li>",
+    "targetTitle": "Target audience",
+    "targetContent": "Real estate agents working in the luxury property market who require immediate access to client profiles and insights to make quick, informed decisions.",
+    "designTitle": "Design and Prototyping",
+    "designContent": "<li>As a UX Developer, I facilitated communication between the design and development teams, advising on interaction solutions and information architecture. My role was pivotal in optimizing user navigation and ensuring the app's information flow was clear and efficient for agents.</li><li>I worked closely with the design team to align the Design System for consistency across the mobile app, CRM, and websites, using Figma to manage design standards and collaborate in real-time.</li>",
+    "desSystem": "Design system",
+    "websites": "Websites",
+    "websitesButton": "Visit site",
+    "devTitle": "Development",
+    "devContent": "<li>I managed the transition from design to development, implementing user flows and information architecture as intended. My responsibilities included front-end development using React Native for the mobile app and Next.js for optimizing the website.</li><li>To ensure code consistency and quality, we relied on Git Flow for version control and Husky for pre-commit hooks. This process was reinforced with Unit Testing and an Agile approach using scrum boards to keep tasks on track and timelines clear.</li>",
+    "challengeTitle": "Challenges and solutions",
+    "challengeContent": "<li><strong>Design System Implementation:</strong> Creating a unified Design System was crucial to maintain a consistent look and feel across various digital touchpoints. Figma's collaborative features enabled us to streamline this process, making it easier to ensure graphical uniformity across mobile, web, and CRM platforms.</li><li><strong>New Framework Adaptation (Next.js):</strong> Optimizing web performance required exploring and integrating Next.js, a new framework for me. This challenge allowed me to enhance my skills while implementing faster, more efficient web solutions for Million And Up's real estate platform.</li>",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "<part>By leveraging these new technologies and development processes, <strong>Million And Up</strong> has expanded its reach to new users, significantly increased customer engagement, and improved agent productivity. Positive feedback from agents highlighted the app's ease of use and the real-time profiling capabilities, which have contributed to an increase in luxury property sales.</part>"
+  },
+  "monteFrio": {
+    "roleTitle": "Role",
+    "roleContent": "Graphic Designer",
+    "typeTitle": "Type",
+    "typeContent": "Branding and Packaging",
+    "title": "Refreshing a classic brand for a new generation of consumers.",
+    "intro": "<part><strong>Monte Frío,</strong> a Colombian brand with a rich tradition of leasing refrigerators to serve oatmeal drinks, wanted to modernize its image to attract a younger audience.</part><part>With this project, the goal was to give <strong>Monte Frío</strong> a fresh, relatable look while maintaining elements like the polar bear and mountains that loyal customers associate with the brand.</part><part><strong>Monte Frío</strong> is part of a larger company, and as part of this rebranding project, I also created the logo for the parent organization. This ensured a cohesive visual identity across all associated brands, maintaining consistency while modernizing the image.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part>The primary goal was to rejuvenate <strong>Monte Frío's</strong> brand identity to attract new customers, particularly young adults aged 17 to 25, while preserving key brand elements.</part><part><strong>Monte Frío</strong> wanted a versatile look that could be applied to various media, from POP materials to social networks and future digital platforms like e-commerce.</part>",
+    "targetTitle": "Target audience",
+    "targetContent": "Young adults and college students seeking a refreshing, familiar product with a modern twist.",
+    "constraintsTitle": "Constraints",
+    "constraintsContent": "The biggest challenge was finding the right balance between modernizing the brand while keeping recognizable elements (polar bear, mountains) that current users identify with. This new identity also had to be adaptable across multiple channels, from physical coolers to social media and digital ads.",
+    "designTitle": "Design and Prototyping",
+    "sketchingTitle": "Sketching and Ideation",
+    "sketchingContent": "I started with traditional sketching techniques to explore design concepts, incorporating classic elements like the polar bear and mountain motifs in fresh, modern ways.",
+    "digitalTitle": "Digital Design",
+    "digitalContent": "After refining the sketches, I transitioned to Adobe Illustrator and Photoshop to finalize the logo, color palette, and design elements. The result was a cohesive visual identity that could work across various formats, from cooler wraps to social media posts.",
+    "mariaTitle": "La María",
+    "mariaContent": "To complement the rebranding of Monte Frío, I designed the logo for its parent company, ensuring a unified identity across the entire organization.",
+    "challengeTitle": "Challenges and solutions",
+    "maintainingTitle": "Maintaining Brand Tradition",
+    "maintainingContent": "As Monte Frío is a long-standing brand, decision-makers were cautious about changing its look. Through user research and strategic design, I demonstrated that a modernized brand could attract a new market without losing its identity.",
+    "expandingTitle": "Expanding Media Presence",
+    "expandingContent": "Leaders were initially unsure about integrating the brand into digital channels, but research showed that engaging on social media would likely increase reach and appeal to a younger audience. This insight helped secure support for a brand refresh that included digital elements.",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "The new Monte Frío branding was successfully implemented, providing a versatile and modern look that resonated with both loyal customers and new audiences. The refreshed identity increased cooler rentals near universities in Bogotá, opened doors for additional distribution channels in supermarkets and local stores, and enhanced brand perception. Long-time customers even noted that the new branding made their usual drink feel more refreshing, a testament to the power of a cohesive brand identity."
+  },
+  "precision": {
+    "roleTitle": "Role",
+    "roleContent": "Graphic Designer, Web Designer, Developer",
+    "typeTitle": "Type",
+    "typeContent": "Branding and Website",
+    "title": "Building a brand with purpose: connecting people to opportunities.",
+    "intro": "<part><strong>Precision SAS</strong> is a socially focused company in Colombia dedicated to connecting low-income individuals with stable employment opportunities through partnerships with government agencies.</part><part>The objective of this project was to create a corporate brand identity and website that communicated <strong>Precision's</strong> mission and values while providing a functional platform for employee resources.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part><strong>Precision SAS</strong> needed a brand identity that would reflect its mission of helping economically disadvantaged individuals find secure employment.</part><part>The corporate image and website had to convey this mission while being affordable and practical to develop.</part>",
+    "targetTitle": "Target audience",
+    "targetContent": "Adults 18+ who are eligible to work and in need of economic stability, especially individuals from lower-income backgrounds who would benefit from employment opportunities.",
+    "designTitle": "Design",
+    "designContent": "<li>I began the design process with sketches on paper to explore ideas that would visually represent Precision SAS's commitment to social impact and economic empowerment.</li><li>After finalizing the concepts, I transitioned to Adobe Illustrator and Photoshop to complete the corporate brand, including a logo and color palette that evoke trust, support, and community.</li><li>The branding was designed to resonate with both the target audience and government partners, maintaining a professional look while being approachable.</li>",
+    "devTitle": "Development",
+    "devContent": "<li>To keep development cost-effective and time-efficient, I chose WordPress as the CMS and hosted the site on an Apache server with a MySQL database.</li><li>The website provides essential information about the company and serves as a resource portal where hired employees can access documents for legal procedures.</li><li>I continue to manage server administration and site maintenance, ensuring smooth operation and security on UK-based servers.</li>",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "<part>The <strong>Precision SAS</strong> website and branding have successfully conveyed the company's social mission, establishing a strong presence in Colombian entrepreneurship and employment events. The brand's visual identity and website functionality have received positive feedback, particularly for their alignment with the company's mission of supporting low-income individuals in finding stable employment.</part>"
+  },
+  "hola": {
+    "roleTitle": "Role",
+    "roleContent": "UX Developer",
+    "typeTitle": "Type",
+    "typeContent": "Mobile app",
+    "title": "Revolutionizing car rentals with intelligent search",
+    "intro": "<part><strong>Hola Car Rentals</strong> is a mobile app designed to simplify the car rental process by using advanced algorithms to find the best rental deals for users, no matter where they are or where they need to rent.</part><part>My role as a <strong>UX Developer</strong> was instrumental in ensuring the app delivers a seamless, intuitive experience while leveraging the latest technologies for optimal performance.</part>",
+    "purposeTitle": "Purpose",
+    "purposeContent": "<part><strong>Hola Car Rentals</strong> aims to provide users with a hassle-free way to find the best car rental offers based on their specific dates and locations. By integrating powerful algorithms, the app ensures users get the most competitive rates, whether booking locally or internationally.</part>",
+    "targetTitle": "Target audience",
+    "targetContent": "Travelers and users seeking quick, reliable car rental options with minimal hassle, available from anywhere in the world.",
+    "designTitle": "Design and Prototyping",
+    "designContent": "<li>I played a key role in bridging the design and development phases, contributing solutions to interaction and information architecture challenges. My focus was on creating a smooth user flow that made navigation intuitive and efficient.</li><li>Collaborated closely with the design team, leveraging Figma's collaborative tools to maintain a unified Design System that ensures graphical consistency and seamless user experiences.</li>",
+    "devTitle": "Development",
+    "devContent": "<li>I led the initial setup of the project, handling the installation of the React Native framework and configuring essential libraries such as Dripsy for styling and Reanimated for animations.</li><li>Responsible for unit testing setup using Jest and configuring continuous deployment pipelines, ensuring robust and efficient development cycles.</li><li>Worked extensively on adopting the new React architecture, optimizing the use of native components to enhance performance and user experience.</li>",
+    "challengeTitle": "Challenges and solutions",
+    "challengeContent": "<part><strong>Design System Creation:</strong> Developing and maintaining a comprehensive Design System in Figma was crucial to ensure consistent visual elements across different components and screens, streamlining collaboration and reducing inconsistencies.</part><part><strong>Adopting New Libraries and Technologies:</strong> The project required integrating and learning new tools like Dripsy and Reanimated to enhance the app's visual and interactive capabilities. Additionally, transitioning to the new React architecture provided opportunities to explore and implement modern practices for native component management.</part>",
+    "outcomeTitle": "Final outcome",
+    "outcomeContent": "<part><strong>Hola Car Rentals</strong> is positioned to transform the car rental industry by offering users an accurate, competitive, and convenient service. The app's integration of cutting-edge technologies and intuitive design is already helping users find the best rental deals, with further improvements and user reach expected as the app continues to evolve.</part>"
+  }
+}
