@@ -2,7 +2,6 @@ const jsonServer = require("json-server");
 const axios = require("axios");
 
 const server = jsonServer.create();
-const router = jsonServer.router({}); // Empty object for now
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
@@ -15,17 +14,14 @@ async function loadData() {
       "https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/projects.json"
     );
 
-    // Update the router with fetched data
     const newDb = {
-      messages: {
-        en: enData.data || {}, // Ensuring default empty object
-        es: esData.data || {}, // Ensuring default empty object
-      },
+      en: enData.data || {}, // Ensure valid object
+      es: esData.data || {}, // Ensure valid object
       projects: projectsData.data || {},
     };
 
-    // Override default JSON Server router
-    server.use("/api", jsonServer.router(newDb));
+    // Override JSON Server default router
+    server.use(jsonServer.router(newDb));
 
     console.log("✅ Data loaded successfully!");
   } catch (error) {
