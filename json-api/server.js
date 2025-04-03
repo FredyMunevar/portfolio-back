@@ -7,7 +7,6 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-// Load data dynamically from GitHub
 async function loadData() {
   try {
     const enData = await axios.get("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/en.json");
@@ -19,13 +18,15 @@ async function loadData() {
     // Update the router with fetched data
     const newDb = {
       messages: {
-        en: enData.data,
-        es: esData.data,
+        en: enData.data || {}, // Ensuring default empty object
+        es: esData.data || {}, // Ensuring default empty object
       },
-      projects: projectsData.data,
+      projects: projectsData.data || {},
     };
 
-    server.use(jsonServer.router(newDb));
+    // Override default JSON Server router
+    server.use("/api", jsonServer.router(newDb));
+
     console.log("✅ Data loaded successfully!");
   } catch (error) {
     console.error("❌ Error loading data:", error);
@@ -35,7 +36,6 @@ async function loadData() {
 // Load data before starting the server
 loadData();
 
-// Basic route to check if the API is running
 server.get("/", (req, res) => {
   res.send("✅ JSON Server is running on Vercel!");
 });
