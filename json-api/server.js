@@ -6,32 +6,31 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-async function loadData() {
+// Function to fetch JSON data from GitHub dynamically
+async function fetchJson(url, res) {
   try {
-    const enData = await axios.get("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/en.json");
-    const esData = await axios.get("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/es.json");
-    const projectsData = await axios.get(
-      "https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/projects.json"
-    );
-
-    const newDb = {
-      en: enData.data || {}, // Ensure valid object
-      es: esData.data || {}, // Ensure valid object
-      projects: projectsData.data || {},
-    };
-
-    // Override JSON Server default router
-    server.use(jsonServer.router(newDb));
-
-    console.log("✅ Data loaded successfully!");
+    const response = await axios.get(url);
+    res.json(response.data);
   } catch (error) {
-    console.error("❌ Error loading data:", error);
+    console.error(`❌ Error fetching data from ${url}:`, error.message);
+    res.status(500).json({ error: "Failed to fetch data" });
   }
 }
 
-// Load data before starting the server
-loadData();
+// Define API routes that fetch data on demand
+server.get("/en", (req, res) => {
+  fetchJson("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/en.json", res);
+});
 
+server.get("/es", (req, res) => {
+  fetchJson("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/es.json", res);
+});
+
+server.get("/projects", (req, res) => {
+  fetchJson("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/projects.json", res);
+});
+
+// Root route for debugging
 server.get("/", (req, res) => {
   res.send("✅ JSON Server is running on Vercel!");
 });
