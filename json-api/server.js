@@ -2,42 +2,42 @@ const jsonServer = require("json-server");
 const axios = require("axios");
 
 const server = jsonServer.create();
-const router = jsonServer.router({}); // Empty router to start
+const router = jsonServer.router({}); // Empty object for now
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-async function fetchJSON(url) {
+// Load data dynamically from GitHub
+async function loadData() {
   try {
-    const response = await axios.get(url);
-    return response.data;
+    const enData = await axios.get("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/en.json");
+    const esData = await axios.get("https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/es.json");
+    const projectsData = await axios.get(
+      "https://raw.githubusercontent.com/FredyMunevar/portfolio-back/main/data/projects.json"
+    );
+
+    // Update the router with fetched data
+    const newDb = {
+      messages: {
+        en: enData.data,
+        es: esData.data,
+      },
+      projects: projectsData.data,
+    };
+
+    server.use(jsonServer.router(newDb));
+    console.log("✅ Data loaded successfully!");
   } catch (error) {
-    return { error: "Data not found" };
+    console.error("❌ Error loading data:", error);
   }
 }
 
-server.get("/api/en", async (req, res) => {
-  const data = await fetchJSON(
-    "https://raw.githubusercontent.com/FredyMunevar/portfolio/set-front-end/messages/en.json"
-  );
-  res.json(data);
+// Load data before starting the server
+loadData();
+
+// Basic route to check if the API is running
+server.get("/", (req, res) => {
+  res.send("✅ JSON Server is running on Vercel!");
 });
 
-server.get("/api/es", async (req, res) => {
-  const data = await fetchJSON(
-    "https://raw.githubusercontent.com/FredyMunevar/portfolio/set-front-end/messages/es.json"
-  );
-  res.json(data);
-});
-
-server.get("/api/projects", async (req, res) => {
-  const data = await fetchJSON(
-    "https://raw.githubusercontent.com/FredyMunevar/portfolio/set-front-end/data/projects.json"
-  );
-  res.json(data);
-});
-
-server.use(router);
-server.listen(3000, () => {
-  console.log("JSON Server is running on port 3000");
-});
+module.exports = server;
