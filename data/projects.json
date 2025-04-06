@@ -58,6 +58,20 @@
             "id": 3,
             "src": "monte-frio/monte-frio-maria-3"
           }
+        ],
+        "group3": [
+          {
+            "id": 1,
+            "src": "monte-frio/monte-frio-instagram"
+          },
+          {
+            "id": 2,
+            "src": "frio/monte-frio-pop-external"
+          },
+          {
+            "id": 3,
+            "src": "monte-frio/monte-frio-car"
+          }
         ]
       }
     },
