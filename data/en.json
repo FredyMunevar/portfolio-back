@@ -9,22 +9,28 @@
     "rights": "All rights reserved."
   },
   "home": {
-    "title": "I Create User Experiences",
-    "description": "I'm a UX Developer and Designer with 17+ years of experience, driving projects from planning to development, with expertise in branding, illustration, and seamless digital experiences.",
+    "title": "I Build AI Tools",
+    "description": "I'm a Design Engineer with 17+ years in design and front-end. Today I build AI tools for design and engineering teams: MCP servers, Claude Code plugins and AI agents.",
     "subtitle": "Featured projects",
     "downloadButton": "Download resume",
     "projectsButton": "Projects"
   },
   "about": {
     "title": "Hi, I'm Fredy Munevar.",
-    "description": "<part>I am a Designer and UX Developer with 17+ years of experience designing and developing intuitive digital interfaces. Starting in graphic design, I expanded into front-end development, working with tools like <strong>React, React Native, Next.js, typescript and SASS.</strong></part><part>Over a decade at Netbangers, I transitioned from Web Designer to Project Manager, leading the whole team from design to development. <strong>My diverse skill set enables me to deliver user-centered experiences across web and mobile platforms.</strong> I'm certified in Agile methodologies and passionate about creating efficient, user-friendly solutions while staying updated on the latest technologies.</part>",
-    "closure": "Through these experiences, I've developed a well-rounded skill set that spans UI/UX design, front-end development, and project management. My passion lies in creating user-centered digital solutions that not only look great but work effortlessly for end users.",
+    "description": "<part>I'm a Design Engineer with 17+ years of experience designing and building digital products. I started in graphic design, expanded into front-end development with <strong>React, React Native, Next.js, TypeScript and SASS</strong>, and today I focus on <strong>building AI tools for design and engineering teams.</strong></part><part>Right now I'm directly involved in developing an <strong>MCP server and Claude Code plugins</strong> that give AI tools a reliable source of truth about a design system: components, tokens, patterns and usage rules. Before that, at Million, I led the move to AI-assisted workflows with design agents for web and mobile, development agents with custom skills, and applied research on how AI reads real estate floor plans.</part><part>Over a decade at Netbangers, I transitioned from Web Designer to Project Manager, leading the whole team from design to development. <strong>My diverse skill set enables me to deliver user-centered experiences across web and mobile platforms.</strong> I'm certified in Agile methodologies and passionate about creating efficient, user-friendly solutions while staying updated on the latest technologies.</part>",
+    "closure": "Through these experiences, I've built a skill set that spans UI/UX design, front-end development, project management and AI tooling. My passion is creating tools and digital products that help teams work better and give users experiences that simply work.",
     "experiences": {
+      "castcrew": {
+        "title": "Cast & Crew",
+        "role": "Senior Systems Design Engineer",
+        "date": "Present",
+        "description": "Directly involved in developing an MCP server and Claude Code plugins that give AI tools accurate design system knowledge for design and development teams."
+      },
       "million": {
         "title": "Million Luxury",
         "role": "Senior UX/UI Designer",
-        "date": "Present",
-        "description": "Currently working on mobile and web applications for real estate, focusing on tenant screening and CRM development."
+        "date": "2026",
+        "description": "Led AI adoption in design and development: design agents for web and mobile, development agents with custom skills, and applied AI research. Also designed real estate web and mobile apps focused on tenant screening and CRM."
       },
       "branch": {
         "title": "Branch App",
@@ -54,8 +60,12 @@
   },
   "toolbox": {
     "title": "My toolbox 😎",
-    "description": "<part>Over the years, I've built a versatile set of skills that allow me to craft user experiences from concept to code. Here's a look at the tools, technologies, and methods I use to turn ideas into digital products that make a difference.</part><part>Let's dive into the different areas I specialize in:</part>",
+    "description": "<part>Over the years, I've built a versatile set of skills that allow me to craft digital products from concept to code, and today, the AI tools that help teams build them. Here's a look at the tools, technologies, and methods I use to turn ideas into products that make a difference.</part><part>Let's dive into the different areas I specialize in:</part>",
     "tools": {
+      "ai": {
+        "title": "AI Tooling 🤖",
+        "toolDescription": "<subtitle>🔌 MCP Servers:</subtitle><content>Building servers that give AI assistants accurate, structured context about design systems: components, tokens, patterns and usage rules.</content><subtitle>🧩 Claude Code Plugins & Skills:</subtitle><content>Creating plugins, skills and agents that automate design and development work, from quality and accessibility audits to technical specs.</content><subtitle>🔬 Applied AI Research:</subtitle><content>Testing how vision-language models read and interpret real-world content, like real estate floor plans and brochures.</content>"
+      },
       "design": {
         "title": "UI/UX Design 🎨",
         "toolDescription": "<subtitle>🧠 Wireframing:</subtitle><content>Turning ideas into structured layouts that serve as the backbone for user interfaces.</content><subtitle>🧑🏾‍💻 Prototyping:</subtitle><content>Creating interactive prototypes that allow users and stakeholders to experience the design before it's fully developed.</content><subtitle>🖌️ Visual Design:</subtitle><content>Ensuring every pixel serves a purpose, creating visually appealing and cohesive designs using tools like Figma, Sketch, and Adobe XD.</content>"
