@@ -9,22 +9,28 @@
     "rights": "Derechos reservados."
   },
   "home": {
-    "title": "Creo experiencias de usuario.",
-    "description": "Con más de 17 años de experiencia, diseño experiencias digitales desde la planificación hasta el desarrollo, combinando branding, UI/UX y desarrollo front-end.",
+    "title": "Creo herramientas de IA.",
+    "description": "Soy Design Engineer con más de 17 años en diseño y front-end. Hoy creo herramientas de IA para equipos de diseño e ingeniería: servidores MCP, plugins de Claude Code y agentes de IA.",
     "subtitle": "Proyectos destacados",
     "downloadButton": "Descargar CV",
     "projectsButton": "Proyectos"
   },
   "about": {
     "title": "Hola, soy Fredy Munevar.",
-    "description": "<part>Soy un diseñador y desarrollador de UX con más de 17 años de experiencia en el diseño y desarrollo de interfaces digitales intuitivas. Comenzando en el diseño gráfico, me expandí al desarrollo front-end, trabajando con herramientas como <strong>React, React Native, Next.js, typescript y SASS.</strong></part><part>Durante más de una década en Netbangers, hice la transición de Diseñador Web a Gerente de Proyectos, liderando a todo el equipo desde el diseño hasta el desarrollo. <strong>Mi diverso conjunto de habilidades me permite ofrecer experiencias centradas en el usuario a través de plataformas web y móviles.</strong> Estoy certificado en metodologías ágiles y me apasiona crear soluciones eficientes y fáciles de usar mientras me mantengo actualizada en las últimas tecnologías.</part>",
-    "closure": "A través de estas experiencias, he desarrollado un conjunto de habilidades bien redondeado que abarca el diseño UI/UX, el desarrollo front-end y la gestión de proyectos. Mi pasión es crear soluciones digitales centradas en el usuario que no solo sean atractivas, sino que funcionen sin esfuerzo para los usuarios finales.",
+    "description": "<part>Soy Design Engineer con más de 17 años de experiencia diseñando y construyendo productos digitales. Comencé en el diseño gráfico, me expandí al desarrollo front-end con <strong>React, React Native, Next.js, TypeScript y SASS</strong>, y hoy me enfoco en <strong>crear herramientas de IA para equipos de diseño e ingeniería.</strong></part><part>Actualmente participo directamente en el desarrollo de un <strong>servidor MCP y plugins de Claude Code</strong> que les dan a las herramientas de IA una fuente de verdad confiable sobre el sistema de diseño: componentes, tokens, patrones y reglas de uso. Antes, en Million, lideré la adopción de flujos de trabajo con IA: agentes de diseño para web y móvil, agentes de desarrollo con skills a la medida e investigación aplicada sobre cómo la IA lee planos inmobiliarios.</part><part>Durante más de una década en Netbangers, hice la transición de Diseñador Web a Gerente de Proyectos, liderando a todo el equipo desde el diseño hasta el desarrollo. <strong>Mi diverso conjunto de habilidades me permite ofrecer experiencias centradas en el usuario a través de plataformas web y móviles.</strong> Estoy certificado en metodologías ágiles y me apasiona crear soluciones eficientes y fáciles de usar mientras me mantengo actualizado en las últimas tecnologías.</part>",
+    "closure": "A través de estas experiencias, he desarrollado un conjunto de habilidades que abarca el diseño UI/UX, el desarrollo front-end, la gestión de proyectos y las herramientas de IA. Mi pasión es crear herramientas y productos digitales que ayuden a los equipos a trabajar mejor y den a los usuarios experiencias que simplemente funcionen.",
     "experiences": {
+      "castcrew": {
+        "title": "Cast & Crew",
+        "role": "Senior Systems Design Engineer",
+        "date": "Presente",
+        "description": "Participo directamente en el desarrollo de un servidor MCP y plugins de Claude Code que les dan a las herramientas de IA conocimiento preciso del sistema de diseño, para equipos de diseño y desarrollo."
+      },
       "million": {
         "title": "Million Luxury",
         "role": "Senior UX/UI Designer",
-        "date": "Presente",
-        "description": "Actualmente trabajo en aplicaciones móviles y web para el sector inmobiliario, centradas en la selección de inquilinos y el desarrollo de CRM."
+        "date": "2026",
+        "description": "Lideré la adopción de IA en diseño y desarrollo: agentes de diseño para web y móvil, agentes de desarrollo con skills a la medida e investigación aplicada de IA. También diseñé aplicaciones web y móviles inmobiliarias centradas en la selección de inquilinos y CRM."
       },
       "branch": {
         "title": "Branch App",
@@ -54,8 +60,12 @@
   },
   "toolbox": {
     "title": "Herramientas 😎",
-    "description": "<part>A lo largo de los años, he desarrollado un conjunto versátil de habilidades que me permiten crear experiencias de usuario desde el concepto hasta el código. He aquí un vistazo a las herramientas, tecnologías y métodos que utilizo para convertir ideas en productos digitales que marcan la diferencia.</part><part>Vamos a sumergirnos en las diferentes áreas en las que me especializo:</part>",
+    "description": "<part>A lo largo de los años, he desarrollado un conjunto versátil de habilidades que me permiten crear productos digitales desde el concepto hasta el código y, hoy, las herramientas de IA que ayudan a los equipos a construirlos. He aquí un vistazo a las herramientas, tecnologías y métodos que utilizo para convertir ideas en productos que marcan la diferencia.</part><part>Vamos a sumergirnos en las diferentes áreas en las que me especializo:</part>",
     "tools": {
+      "ai": {
+        "title": "Herramientas de IA 🤖",
+        "toolDescription": "<subtitle>🔌 Servidores MCP:</subtitle><content>Construyo servidores que les dan a los asistentes de IA contexto preciso y estructurado sobre los sistemas de diseño: componentes, tokens, patrones y reglas de uso.</content><subtitle>🧩 Plugins y skills de Claude Code:</subtitle><content>Creo plugins, skills y agentes que automatizan tareas de diseño y desarrollo, desde auditorías de calidad y accesibilidad hasta especificaciones técnicas.</content><subtitle>🔬 Investigación aplicada de IA:</subtitle><content>Evalúo cómo los modelos de visión y lenguaje leen e interpretan contenido real, como planos y brochures inmobiliarios.</content>"
+      },
       "design": {
         "title": "Diseño UI/UX 🎨",
         "toolDescription": "<subtitle>🧠 Wireframing:</subtitle><content>Convertir ideas en diseños estructurados que sirvan de columna vertebral para las interfaces de usuario.</content><subtitle>🧑🏾‍💻 Creación de prototipos:</subtitle><content>Creación de prototipos interactivos que permiten a los usuarios y partes interesadas experimentar el diseño antes de que esté completamente desarrollado.</content><subtitle>🖌️ Diseño visual:</subtitle><content>Garantizar que cada píxel sirva a un propósito, creando diseños visualmente atractivos y cohesivos utilizando herramientas como Figma, Sketch y Adobe XD.</content>"
